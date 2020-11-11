@@ -1,3 +1,3 @@
 # Webseite
 
-** Hilfe wie funktioniert Markdown **
+**Hilfe**
