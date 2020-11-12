@@ -1,6 +1,33 @@
+body {
+    margin: 0;
+}
+
 .nav {
     position: sticky;
     overflow: hidden;
     top: 0;
-    background-color: #ff91bc;
+    background-color: #4545cc;
+    color: #ffffff;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 8px;
+    box-shadow: 0px 1px 1px #4545cc;
+}
+
+.main {
+    position: static;
+    background-color: #dfdfdf;
+    font-family: sans-serif;
+}
+
+.content {
+    margin: 30px;
+    padding: 10px 20px;
+    background-color: #ababab;
+    font-variant: small-caps;
+}
+
+.header {
+    font-weight: bold;
+    font-size: large;
 }
