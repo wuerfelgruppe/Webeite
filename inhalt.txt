@@ -1,0 +1,23 @@
+Grundlagen
+
+Der Zauberwürfel, auch Rubik's Cube genannt, wurde 1974 von Ernő Rubik erfunden. Das Drehpuzzle besteht aus 26 Teilen, die eine Würfelform bilden und mit unterschiedlichen Farben gekennzeichnet sind. Im gelösten Zustand sind alle 6 Seiten einfarbig. Wenn der Würfel verdreht wird gibt es über 40 Trillionen Möglichkeiten, wie seine Teile positioniert sind. Dennoch gibt es Methoden, um diese sehr hohe Zahl nach und nach einzugrenzen, bis sich der Würfel im gelösten Zustand befindet.
+Um später die Algorithmen nachvollziehen zu können ist es wichtig zu verstehen, aus welchen Teilen der Zauberwürfel besteht. Dabei unterscheidet man in Mittelsteine, Kantensteine und Ecksteine.
+Mittelsteine befinden sich, wie der Name schon sagt in der Mitte einer Seite. Sie haben nur eine Farbe und geben mit dieser auch die spätere Farbe der Seite vor, da sie sich relativ zueinander nicht bewegen lassen. 
+Die Kantensteine grenzen direkt an die Mittelsteine an und sind dadurch gut zu erkennen, dass sie zwei verschiedene Farben haben. Sie verbinden sozusagen die Mittelsteine miteinander.
+Die Ecksteine dagegen haben drei verschiedene Farben und befinden sich an den Ecken einer Seite.
+Durch diese unterschiedlichen Merkmale ist es unmöglich beispielsweise einen Kantenstein mit einem Eckstein zu tauschen, da sie den jeweiligen Platz nicht füllen beziehungsweise zu viel füllen würden.
+
+Notationen
+
+Um Algorithmen lesen und ausführen zu können bedarf es sogenannten Notationen, also einem Weg um verschiedene Bewegungen des Würfels verständlich aufschreiben zu können.
+Die gängigste Art von Notation besteht aus den Buchstaben R L U D F B, die für folgende Begriffe stehen:
+
+R – right / rechts
+L – left / links
+U – up / oben
+D – down / unten
+F – front / vorne
+B – back / hinten
+
+Dabei bedeutet der einzelne Buchstabe immer eine Drehung der entsprechenden Seite um 90° im Uhrzeigersinn. Der gleiche Buchstabe mit einem ‘ dahinter, also beispielsweise R‘ bedeutet eine Drehung um 90° gegen den Uhrzeigersinn.
+Es wird dabei immer davon ausgegangen das man die entsprechende Seite von vorne betrachtet um zu sehen welche Richtung dem Uhrzeigersinn entspricht.
