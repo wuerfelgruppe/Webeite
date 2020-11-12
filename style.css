@@ -17,14 +17,16 @@ body {
 .main {
     position: static;
     background-color: #dfdfdf;
+    background-repeat: repeat-y;
     font-family: sans-serif;
 }
 
 .content {
-    margin: 30px;
+    margin: 30px 0px;
     padding: 10px 20px;
-    background-color: #ababab;
+    background-color: #ffffff;
     font-variant: small-caps;
+    box-shadow: 0px 2px 2px #888888;
 }
 
 .header {
