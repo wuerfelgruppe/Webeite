@@ -1,11 +1,13 @@
 body {
     margin: 0;
+    letter-spacing: 0.07em;
 }
 
 .nav {
     position: sticky;
     overflow: hidden;
     top: 0;
+    margin: 0 !important;
     background-color: #4545cc;
     color: #ffffff;
     font-variant: small-caps;
@@ -22,14 +24,41 @@ body {
 }
 
 .content {
-    margin: 30px 0px;
-    padding: 10px 20px;
+    width: 100%;
     background-color: #ffffff;
-    font-variant: small-caps;
-    box-shadow: 0px 2px 2px #888888;
+    font-variant: none;
+    box-shadow: 0px 2px 2px #bcbcbc;
+}
+
+.content p {
+    padding: 10px 20px;
 }
 
 .header {
     font-weight: bold;
     font-size: large;
+}
+
+.header-temp {
+    font-variant: small-caps;
+    size: inherit;
+    width: 100%;
+    font-weight: bold;
+    font-size: large;
+    padding: 7px 10px;
+    background-color: #343499;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 0 20px 0;
+}
+
+p {
+    margin: 0;
 }
