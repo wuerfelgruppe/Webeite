@@ -1,5 +1,10 @@
-body {
+* {
+    padding: 0;
     margin: 0;
+}
+
+body {
+    letter-spacing: 0.07em;
 }
 
 .nav {
@@ -14,7 +19,6 @@ body {
 }
 
 .vertical-center {
-    margin: 0;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
@@ -28,10 +32,6 @@ body {
     text-align: center;
 }
 
-.nav_text p {
-    margin: 0; 
-}
-
 .nav_menue {
     width: 10%;
     height: 100%;
@@ -39,11 +39,6 @@ body {
     background-color: beige;
     display: block;
     text-align: center;
-}
-
-#nav_button {
-    margin: 0;
-    padding: 0;
 }
 
 .main {
@@ -54,16 +49,29 @@ body {
 }
 
 .content {
-    margin: 30px 0px;
-    padding: 10px 20px;
+    width: 100%;
     background-color: #ffffff;
-    font-variant: small-caps;
-    box-shadow: 0px 2px 2px #888888;
+    font-variant: none;
+    box-shadow: 0px 2px 2px #bcbcbc;
+}
+
+.content p {
+    padding: 10px 20px;
 }
 
 .header {
     font-weight: bold;
-    font-size: large;
+    font-size: 1.2em;
     background-color: #343499;
     color: white;
+    font-variant: small-caps;
+    width: 100%;
+    font-weight: bold;
+    font-size: large;
+    padding: 7px 10px;
+}
+
+.container {
+    margin: 10px 0;
+    display: block;
 }
