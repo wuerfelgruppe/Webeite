@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titel</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="main">
@@ -22,12 +23,28 @@
         </div>
       <div class="content">
         <p>
-          Der Zauberwürfel, auch Rubik's Cube genannt, wurde 1974 von Ernő Rubik erfunden. Das Drehpuzzle besteht aus 26 Teilen, die eine Würfelform bilden und mit unterschiedlichen Farben gekennzeichnet sind. Im gelösten Zustand sind alle 6 Seiten einfarbig. Wenn der Würfel verdreht wird gibt es über 40 Trillionen Möglichkeiten, wie seine Teile positioniert sind. Dennoch gibt es Methoden, um diese sehr hohe Zahl nach und nach einzugrenzen, bis sich der Würfel im gelösten Zustand befindet.
-          Um später die Algorithmen nachvollziehen zu können ist es wichtig zu verstehen, aus welchen Teilen der Zauberwürfel besteht. Dabei unterscheidet man in Mittelsteine, Kantensteine und Ecksteine.
-          Mittelsteine befinden sich, wie der Name schon sagt in der Mitte einer Seite. Sie haben nur eine Farbe und geben mit dieser auch die spätere Farbe der Seite vor, da sie sich relativ zueinander nicht bewegen lassen. 
-          Die Kantensteine grenzen direkt an die Mittelsteine an und sind dadurch gut zu erkennen, dass sie zwei verschiedene Farben haben. Sie verbinden sozusagen die Mittelsteine miteinander.
-          Die Ecksteine dagegen haben drei verschiedene Farben und befinden sich an den Ecken einer Seite.
-          Durch diese unterschiedlichen Merkmale ist es unmöglich beispielsweise einen Kantenstein mit einem Eckstein zu tauschen, da sie den jeweiligen Platz nicht füllen beziehungsweise zu viel füllen würden.</p>
+          Der Zauberwürfel besteht aus 26 Teilen. Diese Teile setzen sich aus drei Arten zusammen:
+        </p>
+          <div class="gallery">
+            <a target="_blank" href="bilder/ecken.svg">
+              <img src="bilder/ecken.svg" alt="Eckteile" width="10%">
+            </a>
+            <div class="desc">8 Ecken</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="bilder/kanten.svg">
+              <img src="bilder/kanten.svg" alt="Kantenteile" width="10%">
+            </a>
+            <div class="desc">12 Kanten</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="bilder/mitten.svg">
+              <img src="bilder/mitten.svg" alt="Mittelteile" width="10%">
+            </a>
+            <div class="desc">6 Mitten</div>
+          </div>
       </div>
       </div>
       <div class="container">

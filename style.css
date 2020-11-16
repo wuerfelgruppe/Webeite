@@ -7,6 +7,11 @@ body {
     letter-spacing: 0.07em;
 }
 
+ul {
+    padding: 0 30px;
+    list-style: none;
+}
+
 .nav {
     position: sticky;
     overflow: hidden;
@@ -53,6 +58,7 @@ body {
     background-color: #ffffff;
     font-variant: none;
     box-shadow: 0px 2px 2px #bcbcbc;
+    line-height: 1.2em;
 }
 
 .content p {
@@ -73,5 +79,27 @@ body {
 
 .container {
     margin: 10px 0;
-    display: block;
+/*    display: block;*/
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+/*    float: left;*/
+    display: inline-block;
+    width: 180px;
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
