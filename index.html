@@ -6,17 +6,29 @@
     <title>Titel</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <!-- Stylesheet für das Menu icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="main">
-      <div class="nav">
-        <div class="nav_text vertical-center">
-          <p>Würfelgruppe</p>
+
+     <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+      <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
         </div>
-        <div class="nav_menue">
-          <img alt="Menue" src="bilder\menue.svg" id="nav_button">
-        </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
+
+    <!-- Content -->
+
       <div class ="container">
         <div class="header">
           <p>Grundlagen</p>
@@ -85,5 +97,9 @@
         </div>
       </div>
     </div>
+
+    <!-- Script, damit das Menue ausfahren kann -->
+    <script src="script.js"></script>
+    
   </body>
 </html>
