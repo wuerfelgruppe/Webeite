@@ -87,7 +87,7 @@ div.gallery {
     border: 1px solid #ccc;
 /*    float: left;*/
     display: inline-block;
-    width: 180px;
+    width: 30vh;
 }
   
 div.gallery:hover {
@@ -100,6 +100,8 @@ div.gallery img {
 }
   
 div.desc {
-    padding: 15px;
+    padding: 15px 0;
     text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
 }
