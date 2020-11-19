@@ -152,6 +152,7 @@
         </div>
       </div>
 
+      <!-- 2. Ebene -->
       <div class="container">
         <div id="" class="sprung"></div>
         <div class="header">
@@ -163,7 +164,9 @@
             die an die Steine der weißen Ebene angrenzen.
           </p>
           <p>
-            Dafür suchst du dir wieder auf der gelben Seite einen Stein, diesmal eine Kante, die kein Gelb enthält. Diese drehst du mit der gelben Seite so weit, das eine ihrer Farben an die passende Mitte angrenzt. Jetzt gibt es zwei Möglichkeiten, schau dir an, welche andere Farbe dein Kantenstein hat und ob die gleichfarbige Seite sich links oder rechts befindet.
+            Dafür suchst du dir wieder auf der gelben Seite einen Stein, diesmal eine Kante, die kein Gelb enthält.
+            Diese drehst du mit der gelben Seite so weit, das eine ihrer Farben an die passende Mitte angrenzt.
+            Jetzt gibt es zwei Möglichkeiten, schau dir an, welche andere Farbe dein Kantenstein hat und ob die gleichfarbige Seite sich links oder rechts befindet.
           </p>
           <p>
             Wenn die Kante nach rechts muss führe diese Bewegungen aus:
@@ -183,6 +186,7 @@
         </div>
       </div>
 
+      <!-- Gelbes Kreuz -->
       <div class="container">
         <div id="" class="sprung"></div>
         <div class="header">
@@ -191,22 +195,30 @@
         <div class="content">
           <p>
             Die gelbe Seite zu lösen erfordert noch ein paar weitere Algorithmen, da du darauf achten musst deinen bisherigen Fortschritt nicht zu zerstören.
-Im ersten Schritt wird dabei, wie Anfangs auf der weißen Seite, ein Kreuz auf der gelben Seite gebildet. Manchmal lassen sich auch einzelne Schritte überspringen, weil die Teile bereits in der richtigen Position für den nächsten Schritt sind.
-
-Es gibt vier verschiedene Positionen in denen sich die gelben Kantensteine jetzt befinden können. Die Ecken lassen wir dabei noch vollkommen außer Acht, ob sie mit gelb nach oben liegen oder nicht interessiert uns erst später wieder.
-Die Kanten können alle mit gelb nach außen liegen, so das nur die Mitte gelb ist. Es können zwei Kanten mit gelb nach oben liegen, die entweder nebeneinander oder gegenüber voneinander liegen oder es können bereits alle vier Kanten mit gelb nach oben liegen, dann kannst du diesen Schritt vorerst überspringen.
-
-Wenn nur die Mitte gelb ist kannst du den Würfel halten wie du magst.
-Wenn zwei Kanten nebeneinander gelb sind hältst du den Würfel so, das eine davon sich links und die Andere hinten befindet.
-Wenn zwei gegenüberliegende Kanten gelb sind hältst du diese Linie waagerecht zu dir, also so das sich eine Kante links und eine rechts befindet.
-
-Mit dem Algorithmus gehst du dabei in die jeweils nächste Position über, das heißt vom Punkt aus musst du den Algorithmus drei mal ausführen bis du am Kreuz angekommen bist, von der Linie aus dagegen nur einmal.
-
-F R U R' U' F'
+            Im ersten Schritt wird dabei, wie Anfangs auf der weißen Seite, ein Kreuz auf der gelben Seite gebildet.
+            Manchmal lassen sich auch einzelne Schritte überspringen, weil die Teile bereits in der richtigen Position für den nächsten Schritt sind.
           </p>
+          <p>
+            Es gibt vier verschiedene Positionen in denen sich die gelben Kantensteine jetzt befinden können.
+            Die Ecken lassen wir dabei noch vollkommen außer Acht, ob sie mit gelb nach oben liegen oder nicht interessiert uns erst später wieder.
+            Die Kanten können alle mit gelb nach außen liegen, so das nur die Mitte gelb ist.
+            Es können zwei Kanten mit gelb nach oben liegen, die entweder nebeneinander oder gegenüber voneinander liegen oder es können bereits alle vier Kanten mit gelb nach oben liegen, dann kannst du diesen Schritt vorerst überspringen.<br>
+          </p>
+          <p>
+            Wenn nur die Mitte gelb ist kannst du den Würfel halten wie du magst.
+            Wenn zwei Kanten nebeneinander gelb sind hältst du den Würfel so, das eine davon sich links und die Andere hinten befindet.
+            Wenn zwei gegenüberliegende Kanten gelb sind hältst du diese Linie waagerecht zu dir, also so das sich eine Kante links und eine rechts befindet.
+          </p>
+          <p>
+            Mit dem Algorithmus gehst du dabei in die jeweils nächste Position über, das heißt vom Punkt aus musst du den Algorithmus drei mal ausführen bis du am Kreuz angekommen bist, von der Linie aus dagegen nur einmal.
+          </p> 
+          <p><b>
+            F R U R' U' F'
+          </b></p>
         </div>
       </div>
 
+      <!-- Kreuz sortieren -->
       <div class="container">
         <div id="" class="sprung"></div>
         <div class="header">
@@ -215,16 +227,20 @@ F R U R' U' F'
         <div class="content">
           <p>
             In diesem Schritt sorgst du dafür, das die Kanten des gelben Kreuzes sich auch mit ihrer anderen Farbe an der richtige Position befinden, die Ecken kannst du dabei immer noch ignorieren.
-Zuerst kannst du die gelbe Seite so lange drehen, bis zwei der vier Kanten an der richtigen Seite liegen, wenn nur eine Kante richtig ist dann dreh noch ein Stück weiter, bis es zwei sind. Wenn bereits alle vier Kanten sich am richtigen Ort befinden, dann kannst du diesen Schritt überspringen.
-
-Wenn die beiden richtigen Kanten sich gegenüberliegen, dann halte den Würfel so, dass eine sich vorne und die Andere sich hinten befindet.
-Wenn die Kanten nebeneinander liegen, dann halte den Würfel so, dass eine rechts und die zweite hinten liegt.
-
-R U R' U R 2U R U
+            Zuerst kannst du die gelbe Seite so lange drehen, bis zwei der vier Kanten an der richtigen Seite liegen, wenn nur eine Kante richtig ist dann dreh noch ein Stück weiter, bis es zwei sind.
+            Wenn bereits alle vier Kanten sich am richtigen Ort befinden, dann kannst du diesen Schritt überspringen.
           </p>
+          <p>
+            Wenn die beiden richtigen Kanten sich gegenüberliegen, dann halte den Würfel so, dass eine sich vorne und die Andere sich hinten befindet.
+            Wenn die Kanten nebeneinander liegen, dann halte den Würfel so, dass eine rechts und die zweite hinten liegt.<br>
+          </p>
+          <p><b>
+            R U R' U R 2U R U
+          </b></p>
         </div>
       </div>
 
+      <!-- Ecken sortieren -->
       <div class="container">
         <div id="" class="sprung"></div>
         <div class="header">
@@ -232,16 +248,21 @@ R U R' U R 2U R U
         </div>
         <div class="content">
           <p>
-            Jetzt schaust du dir die gelben Ecken an. Die gelbe Seite kannst du nun nicht mehr einfach drehen, da die Kanten sich ja schon an den richtigen Positionen befinden. Deshalb schaust du dir jetzt nur an, wie die Positionen der Ecken gerade sind.
-Dabei geht es nur darum, ob eine Ecke sich bereits an der passenden Stelle befindet, wie sie dabei gedreht ist macht noch keinen Unterschied. Wenn ihre drei Farben mit den Farben der drei angrenzenden Seiten übereinstimmen ist sie an der richtigen Stelle.
-Ist noch keine Ecke an der passenden Stelle, dann kannst du den Würfel wieder halten wie du magst und führst den Algorithmus aus, bis eine der Ecken an der richtigen Stelle ist.
-Sobald eine Ecke an der passenden Stelle ist hältst du diese vorne rechts auf dem Würfel und führst den Algorithmus aus, bis auch die anderen drei Ecken an ihren jeweils passenden Orten sind.
-
-U R U' L' U R' U' L
+            Jetzt schaust du dir die gelben Ecken an.
+            Die gelbe Seite kannst du nun nicht mehr einfach drehen, da die Kanten sich ja schon an den richtigen Positionen befinden.
+            Deshalb schaust du dir jetzt nur an, wie die Positionen der Ecken gerade sind.
+            Dabei geht es nur darum, ob eine Ecke sich bereits an der passenden Stelle befindet, wie sie dabei gedreht ist macht noch keinen Unterschied.
+            Wenn ihre drei Farben mit den Farben der drei angrenzenden Seiten übereinstimmen ist sie an der richtigen Stelle.
+            Ist noch keine Ecke an der passenden Stelle, dann kannst du den Würfel wieder halten wie du magst und führst den Algorithmus aus, bis eine der Ecken an der richtigen Stelle ist.
+            Sobald eine Ecke an der passenden Stelle ist hältst du diese vorne rechts auf dem Würfel und führst den Algorithmus aus, bis auch die anderen drei Ecken an ihren jeweils passenden Orten sind.
           </p>
+          <p><b>
+            U R U' L' U R' U' L
+          </b></p>
         </div>
       </div>
-
+      
+      <!-- Letzter Schritt -->
       <div class="container">
         <div id="" class="sprung"></div>
         <div class="header">
@@ -250,14 +271,16 @@ U R U' L' U R' U' L
         <div class="content">
           <p>
             Im letzten Schritt müssen die Ecken, die zwar an der richtige Stelle, aber noch verdreht sind, in ihre passende Position gebracht werden.
-Dabei wird es zwischendurch so aussehen, als ob du alles wieder durcheinander bringst, keine Sorge, wenn du den Algorithmus richtig ausführst, dann befinden sich am Ende alle Teile am richtigen Ort. Hier ist also noch einmal Konzentration gefragt.
-Diesen Algorithmus musst du meistens oft hintereinander ausführen, lass dich also nicht davon abschrecken.
-Als Ausgangsposition für den Würfel nimmst du eine der verdrehten Ecken nach vorne rechts und beginnst dann mit dem Algorithmus, sobald diese Ecke sich mit ihrer gelben Seite nach oben befindet bringst du mit Bewegungen von U die nächste verdrehte Ecke an ihren Platz, wenn dabei die unteren zwei Ebenen durcheinander wirken, ist das vollkommen normal.
-
-R' D' R D
-
-
-Wenn die letzte Ecke mit gelb nach oben liegt nur noch die gelbe Seite in Position drehen und der Zauberwürfel ist gelöst.
+            Dabei wird es zwischendurch so aussehen, als ob du alles wieder durcheinander bringst, keine Sorge, wenn du den Algorithmus richtig ausführst, dann befinden sich am Ende alle Teile am richtigen Ort.
+            Hier ist also noch einmal Konzentration gefragt.
+            Diesen Algorithmus musst du meistens oft hintereinander ausführen, lass dich also nicht davon abschrecken.
+            Als Ausgangsposition für den Würfel nimmst du eine der verdrehten Ecken nach vorne rechts und beginnst dann mit dem Algorithmus, sobald diese Ecke sich mit ihrer gelben Seite nach oben befindet bringst du mit Bewegungen von U die nächste verdrehte Ecke an ihren Platz, wenn dabei die unteren zwei Ebenen durcheinander wirken, ist das vollkommen normal.
+          </p>
+          <p><b>
+            R' D' R D
+          </b></p>
+          <p>
+            Wenn die letzte Ecke mit gelb nach oben liegt nur noch die gelbe Seite in Position drehen und der Zauberwürfel ist gelöst.
           </p>
         </div>
       </div>
