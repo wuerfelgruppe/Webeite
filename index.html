@@ -48,17 +48,17 @@
           </p>
           <div class="gallery-container">
             <div class="gallery">
-                <img src="bilder/ecken.svg" alt="Eckteile" width="1%">
+                <img src="bilder/ecken.svg" alt="Eckteile">
               <div class="desc">8 Ecken</div>
             </div>
           
             <div class="gallery">
-                <img src="bilder/kanten.svg" alt="Kantenteile" width="10%">
+                <img src="bilder/kanten.svg" alt="Kantenteile">
               <div class="desc">12 Kanten</div>
             </div>
           
             <div class="gallery">
-                <img src="bilder/mitten.svg" alt="Mittelteile" width="10%">
+                <img src="bilder/mitten.svg" alt="Mittelteile">
               <div class="desc">6 Mitten</div>
             </div>
             <p>
@@ -126,18 +126,23 @@
           <p>Erste Lösungsschritte</p>
         </div>
         <div class="content">
-          <p>Der erste und gleichzeitig intuitivste Lösungsschritt besteht daraus ein Kreuz auf der weißen Seite zu bilden.</p>
+          <p>Der erste Lösungsschritt besteht daraus, ein Kreuz auf der weißen Seite zu bilden.
+            Such dir dafür einen Kantenstein, der eine weiße Seite hat. Bring diesen an die weiße Mitte heran. Dabei können zwei Fälle auftreten.
+            Passt die weiße Kante zur weißen Mitte, kannst du dir die nächste weiße Kante suchen und so ein Kreuz bilden.</p>
           <div class="gallery-container">
             <div class="gallery">
-                <img src="bilder/weißes-kreuz1.svg" alt="Weisses Kreuz" width="1%">
+                <img src="bilder/weißes-kreuz.svg" alt="Weisses Kreuz">
               <div class="desc">Fertiges weißes Kreuz</div>
             </div>
           </div>
-          <p>Dafür suchst du dir einen Kantenstein, der eine weiße Seite hat. Diesen bringst du an die weiße Mitte heran, dabei können diese zwei Fälle auftreten:
-            (Kantenstein passt zur Mitte) (Kantenstein ist mit anderer Farbe an Mitte)
-            Beim ersten Fall suchst du dir den nächsten Kantenstein und wiederholst es so lange bis alle vier Kantensteine um die Mitte herum weiß sind.
-            Im zweiten Fall musst du den Kantenstein noch kippen, dafür gibt es schon den ersten Algorithmus, wobei dieser Schritt auch intuitiv funktioniert, probier es also ruhig erst mal ohne Algorithmus hinzubekommen.<br>
-            Mit dem gekippten Kantenstein auf der rechten Seite führe folgende Bewegungen aus:</p>
+          <p>
+            Passt die Kante nicht zur weißen Mitte, musst du den Kantenstein noch kippen.</p>
+          <div class="gallery-container">
+            <div class="gallery">
+                <img src="bilder/verdrehte_weiße_kante.svg" alt="Verdrehte Weiße Kante">
+              <div class="desc"><b>F U' R</b>></div>
+            </div>
+          </div>
           <p><b>R' F D F' 2R</b></p>
           <p>Als nächstes musst du darauf achten, das die Kantensteine zu zwei Seiten gehören, also nicht nur weiß, sondern auch ihre zweite Farbe am richtigen Ort sein muss.
             Sie ist dann am richtigen Ort wenn sie mit dem angrenzenden Mittelstein übereinstimmt.
