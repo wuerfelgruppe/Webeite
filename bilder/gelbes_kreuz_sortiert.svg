@@ -9,7 +9,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg8"
-   sodipodi:docname="gelbes_kreuz.svg"
+   sodipodi:docname="gelbes_kreuz_sortiert.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    x="0px"
    y="0px"
@@ -123,7 +123,7 @@
    stroke="#000000"
    stroke-width="0.682"
    d="M97.899,171.761l45.569,26.31v52.618L97.899,224.38   V171.761z"
-   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#333333" />
+   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#ff0000" />
 	<path
    id="path345"
    fill="#FF0000"
@@ -235,7 +235,7 @@
    stroke="#000000"
    stroke-width="0.682"
    d="M280.176,171.761l-45.569,26.31v52.618l45.569-26.309   V171.761z"
-   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#333333" />
+   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#008000" />
 	<path
    id="path377"
    fill="#008000"
