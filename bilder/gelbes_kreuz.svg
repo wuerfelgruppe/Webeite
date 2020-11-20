@@ -9,7 +9,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg8"
-   sodipodi:docname="kante_nach_links.svg"
+   sodipodi:docname="gelbes_kreuz.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    x="0px"
    y="0px"
@@ -18,11 +18,11 @@
    viewBox="0 0 294.179 339.688"
    enable-background="new 0 0 294.179 339.688"
    xml:space="preserve"><metadata
-   id="metadata3530"><rdf:RDF><cc:Work
+   id="metadata37"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata>
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata>
 <defs
-   id="defs3496">
+   id="defs3">
 	
 	
 		<inkscape:perspective
@@ -47,9 +47,9 @@
    inkscape:pageshadow="2"
    inkscape:pageopacity="0.0"
    showgrid="false"
-   inkscape:cy="155.74094"
-   inkscape:cx="-24.491484"
-   inkscape:zoom="0.98994949"
+   inkscape:cy="160.29103"
+   inkscape:cx="147.35682"
+   inkscape:zoom="1.4"
    borderopacity="1.0"
    bordercolor="#666666"
    pagecolor="#ffffff"
@@ -105,7 +105,7 @@
    style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
 	<path
    id="path339"
-   fill="#333333"
+   fill="#FF0000"
    stroke="#000000"
    stroke-width="0.682"
    d="M143.468,250.688l45.569,26.31v52.618l-45.569-26.309   V250.688z"
@@ -147,7 +147,7 @@
    style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
 	<path
    id="path351"
-   fill="#333333"
+   fill="#FF0000"
    stroke="#000000"
    stroke-width="0.682"
    d="M52.33,198.07l45.569,26.31v52.618l-45.569-26.31   V198.07z"
@@ -165,7 +165,7 @@
    stroke="#000000"
    stroke-width="0.682"
    d="M143.468,145.452l-45.569,26.309l45.569,26.31   l45.569-26.31L143.468,145.452z"
-   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#0000ff" />
+   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#ffff00" />
 	<path
    id="path357"
    fill="#333333"
@@ -175,21 +175,21 @@
    style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
 	<path
    id="path359"
-   fill="#FF0000"
+   fill="#333333"
    stroke="#000000"
    stroke-width="0.682"
    d="M234.606,145.452l-45.569,26.309l45.569,26.31   l45.569-26.31L234.606,145.452z"
-   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#333333" />
+   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#ffff00" />
 	<path
    id="path361"
-   fill="#333333"
+   fill="#FFFF00"
    stroke="#000000"
    stroke-width="0.682"
    d="M189.037,119.142l-45.569,26.309l45.569,26.31   l45.569-26.31L189.037,119.142z"
-   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#ffff00" />
+   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
 	<path
    id="path363"
-   fill="#333333"
+   fill="#FFFF00"
    stroke="#000000"
    stroke-width="0.682"
    d="M143.468,92.833l-45.569,26.309l45.569,26.31   l45.569-26.31L143.468,92.833z"
@@ -203,7 +203,7 @@
    style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
 	<path
    id="path367"
-   fill="#333333"
+   fill="#FFFF00"
    stroke="#000000"
    stroke-width="0.682"
    d="M234.606,92.833l-45.569,26.309l45.569,26.31   l45.569-26.31L234.606,92.833z"
@@ -217,7 +217,7 @@
    style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
 	<path
    id="path371"
-   fill="#333333"
+   fill="#008000"
    stroke="#000000"
    stroke-width="0.682"
    d="M234.606,250.688l-45.569,26.31v52.618l45.569-26.309   V250.688z"
@@ -231,11 +231,11 @@
    style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
 	<path
    id="path375"
-   fill="#008000"
+   fill="#333333"
    stroke="#000000"
    stroke-width="0.682"
    d="M280.176,171.761l-45.569,26.31v52.618l45.569-26.309   V171.761z"
-   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#333333" />
+   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#008000" />
 	<path
    id="path377"
    fill="#008000"
@@ -259,7 +259,7 @@
    style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
 	<path
    id="path383"
-   fill="#333333"
+   fill="#008000"
    stroke="#000000"
    stroke-width="0.682"
    d="M325.744,198.07l-45.568,26.31v52.618l45.568-26.31   V198.07z"
