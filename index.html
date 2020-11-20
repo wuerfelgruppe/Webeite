@@ -198,7 +198,7 @@
             Zuerst kannst du dir auf der gelben Seite eine Ecke aussuchen, die weiß enthält. Dann schaust du dir an welche anderen Farben sich auch auf der Ecke befinden und bestimmst damit den Ort wo sie letztendlich hin soll.
           </p>
           <p>
-            Eine Ecke mit weiß, blau und orange müsste beispielsweise dorthin wo die weiße, blaue und orange Seite aneinander angrenzen.<br>
+            Eine Ecke mit weiß, rot und grün muss beispielsweise dorthin wo die weiße, rote und grüne Seite aneinander angrenzen.<br>
             Jetzt bringst du deine gewählte Ecke über den Platz wo sie hin muss, indem du die gelbe Seite drehst. Nun führe den jeweiligen Algorithmus aus:
           </p>
           
@@ -271,6 +271,12 @@
           <p>Das Gelbe Kreuz</p>
         </div>
         <div class="content">
+          <div class="gallery-container">
+            <div class="gallery">
+              <img src="bilder/gelbe_kante_nebeneinander.svg" alt="Gelbes Kreuz" width="1%">
+              <div class="desc"><b>Gelbes Kreuz</b></div>
+            </div>
+          </div>
           <p>
             Die gelbe Seite zu lösen erfordert noch ein paar weitere Algorithmen, da du darauf achten musst deinen bisherigen Fortschritt nicht zu zerstören.
             Im ersten Schritt wird dabei, wie Anfangs auf der weißen Seite, ein Kreuz auf der gelben Seite gebildet.
@@ -287,6 +293,33 @@
             Wenn zwei Kanten nebeneinander gelb sind hältst du den Würfel so, das eine davon sich links und die Andere hinten befindet.
             Wenn zwei gegenüberliegende Kanten gelb sind hältst du diese Linie waagerecht zu dir, also so das sich eine Kante links und eine rechts befindet.
           </p>
+
+          <div class="gallery-container">
+            <div class="gallery">
+              <img src="bilder/gelber_punkt.svg" alt="Gelber Punkt" width="1%">
+              <div class="desc"><b>Nur gelber Punkt</b></div>
+              <div class="desc">Drei Mal ausführen</div>
+            </div>
+            
+            <div class="gallery">
+              <img src="bilder/gelbe_ecke.svg" alt="Gelbe Ecke" width="1%">
+              <div class="desc"><b>Gelbe Ecke</b></div>
+              <div class="desc">Zwei Mal ausführen</div>
+            </div>
+
+            <div class="gallery">
+              <img src="bilder/gelbe_kante_gegenueber.svg" alt="Gelber Strich" width="1%">
+              <div class="desc"><b>Gelber Strich</b></div>
+              <div class="desc">Ein Mal ausführen</div>
+            </div>
+
+            <div class="gallery">
+              <img src="bilder/gelbe_kante_nebeneinander.svg" alt="Gelbes Kreuz" width="1%">
+              <div class="desc"><b>Gelbes Kreuz</b></div>
+              <div class="desc">Schritt nicht nötig</div>
+            </div>
+
+          </div>
           <p>
             Mit dem Algorithmus gehst du dabei in die jeweils nächste Position über, das heißt vom Punkt aus musst du den Algorithmus drei mal ausführen bis du am Kreuz angekommen bist, von der Linie aus dagegen nur einmal.
           </p> 
@@ -295,6 +328,7 @@
           </b></p>
         </div>
       </div>
+
 
       <!-- Kreuz sortieren -->
       <div class="container">
@@ -343,7 +377,7 @@
       <div class="container">
         <div id="letzter_schritt" class="sprung"></div>
         <div class="header">
-          <p>Letzter Schritt</p>
+          <p>Letzter Schritt - Gelbe Ecken drehen</p>
         </div>
         <div class="content">
           <p>
@@ -364,6 +398,12 @@
             Sobald diese Ecke sich mit ihrer gelben Seite nach oben befindet, drehst du die gelbe Seite bis die nächste verdrehte Ecke an vorne rechts ist.<br>
             Wenn dabei die unteren zwei Ebenen durcheinander wirken, ist das vollkommen normal.
           </p>
+          <div class="gallery-container">
+            <div class="gallery">
+              <img src="bilder/verdrehte_ecke_1.svg" alt="Verdrehte Ecke">
+              <div class="desc">Eine verdrehte Ecke</div>
+            </div>
+          </div>
           <p><b>
             R' D' R D
           </b></p>
