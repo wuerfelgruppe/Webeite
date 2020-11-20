@@ -39,8 +39,8 @@
    inkscape:window-maximized="1"
    inkscape:window-y="-8"
    inkscape:window-x="-8"
-   inkscape:window-height="705"
-   inkscape:window-width="1366"
+   inkscape:window-height="837"
+   inkscape:window-width="1600"
    inkscape:document-rotation="0"
    inkscape:current-layer="layer2"
    inkscape:document-units="mm"
@@ -123,7 +123,7 @@
    stroke="#000000"
    stroke-width="0.682"
    d="M97.899,171.761l45.569,26.31v52.618L97.899,224.38   V171.761z"
-   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
+   style="stroke-width:2.57007885;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill:#ffff00" />
 	<path
    id="path345"
    fill="#FF0000"

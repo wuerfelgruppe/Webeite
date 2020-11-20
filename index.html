@@ -337,41 +337,49 @@
           <p>Gelbes Kreuz sortieren</p>
         </div>
         <div class="content">
+          <div class="gallery-container">
+            <div class="gallery">
+              <img src="bilder/gelbes_kreuz_sortiert.svg" alt="Gelbes Kreuz">
+              <div class="desc">Gelbes Kreuz</div>
+            </div>
+          </div>
           <p>
-            In diesem Schritt sorgst du dafür, das die Kanten des gelben Kreuzes sich auch mit ihrer anderen Farbe an der richtige Position befinden, die Ecken kannst du dabei immer noch ignorieren.
-            Zuerst kannst du die gelbe Seite so lange drehen, bis zwei der vier Kanten an der richtigen Seite liegen, wenn nur eine Kante richtig ist dann dreh noch ein Stück weiter, bis es zwei sind.
-            Wenn bereits alle vier Kanten sich am richtigen Ort befinden, dann kannst du diesen Schritt überspringen.
+            In diesem Schritt sorgst du dafür, das die Kanten des gelben Kreuzes sich auch mit ihrer anderen Farbe an der richtige Position befinden.<br>
+            Die Ecken kannst du dabei immer noch ignorieren.
+            Zuerst kannst du die gelbe Seite so lange drehen, bis zwei der vier Kanten an der richtigen Seite liegen.<br>
+            Wenn nur eine Kante richtig ist dann dreh noch ein Stück weiter, bis es zwei sind.<br>
+            Wenn sich bereits alle vier Kanten am richtigen Ort befinden, kannst du diesen Schritt überspringen.
           </p>
           <p>
             Wenn die beiden richtigen Kanten sich gegenüberliegen, dann halte den Würfel so, dass eine sich vorne und die Andere sich hinten befindet.
-            Wenn die Kanten nebeneinander liegen, dann halte den Würfel so, dass eine rechts und die zweite hinten liegt.<br>
+            Nachdem du den Algorithmus aus dieser Position ausgeführt hast liegen die Kanten nebeneinander.
           </p>
+
+          <div class="gallery-container">
+            <div class="gallery">
+              <img src="bilder/gelbe_kante_gegenueber.svg" alt="Gelbe Kante gegenüber">
+              <div class="desc">Gelbe Kante gegenüber</div>
+            </div>
+          </div>
+
+          <p>
+            Wenn sie nebeneinander liegen, dann halte den Würfel so, dass eine Kante rechts und die zweite hinten liegt.
+          </p>
+
+          <div class="gallery-container">
+            <div class="gallery">
+              <img src="bilder/gelbe_kante_nebeneinander.svg" alt="Gelbe Kante nebeneinander">
+              <div class="desc">Gelbe Kante nebeneinander</div>
+            </div>
+          </div>
+
           <p><b>
             R U R' U R 2U R U
           </b></p>
         </div>
       </div>
 
-      <!-- Ecken sortieren -->
-      <div class="container">
-        <div id="ecken_sortieren" class="sprung"></div>
-        <div class="header">
-          <p>Gelbe Ecken sortieren</p>
-        </div>
-        <div class="content">
-          <p>
-            Die gelbe Seite kannst du nun nicht mehr einfach drehen, da die Kanten sich ja schon an den richtigen Positionen befinden.<br>
-            Deshalb schaust du dir jetzt nur an, wie die Positionen der Ecken gerade sind.<br>
-            Dabei geht es nur darum, ob eine Ecke sich bereits an der passenden Stelle befindet, wie sie dabei gedreht ist macht noch keinen Unterschied.
-            Wenn ihre drei Farben mit den Farben der drei angrenzenden Seiten übereinstimmen ist sie an der richtigen Stelle.
-            Ist noch keine Ecke an der passenden Stelle, dann kannst du den Würfel wieder halten wie du magst und führst den Algorithmus aus, bis eine der Ecken an der richtigen Stelle ist.
-            Sobald eine Ecke an der passenden Stelle ist hältst du diese vorne rechts auf dem Würfel und führst den Algorithmus aus, bis auch die anderen drei Ecken an ihren jeweils passenden Orten sind.
-          </p>
-          <p><b>
-            U R U' L' U R' U' L
-          </b></p>
-        </div>
-      </div>
+
       
       <!-- Letzter Schritt -->
       <div class="container">
@@ -381,35 +389,40 @@
         </div>
         <div class="content">
           <p>
-            Im letzten Schritt müssen die Ecken, die zwar an der richtige Stelle, aber noch verdreht sind, in ihre passende Position gebracht werden.
+            Im letzten Schritt sind die Ecken zwar an der richtige Stelle, aber meist noch verdreht.<br>
+            Jetzt werden sie an ihre passende Position gebracht.<br>
+            Als Ausgangsposition für den Würfel nimmst du eine der verdrehten Ecken nach vorne rechts und beginnst dann mit dem Algorithmus.<br>
+            Diesen Algorithmus musst du an der selben Ecke meistens mehrmals hintereinander ausführen. Lass dich davon nicht abschrecken.
           </p>
           <div class="gallery-container">
             <div class="gallery">
               <img src="bilder/verdrehte_ecke.svg" alt="Verdrehte Ecke">
-              <div class="desc">Eine verdrehte Ecke</div>
+              <div class="desc"><b>R' D' R D</b></div>
             </div>
           </div>
           <p>
             Dabei wird es zwischendurch so aussehen, als ob du alles wieder durcheinander bringst.<br>
             Keine Sorge, wenn du den Algorithmus richtig ausführst, dann befinden sich am Ende alle Teile am richtigen Ort.<br>
-            Hier ist also noch einmal Konzentration gefragt.<br>
-            Diesen Algorithmus musst du meistens oft hintereinander ausführen, lass dich also nicht davon abschrecken.
-            Als Ausgangsposition für den Würfel nimmst du eine der verdrehten Ecken nach vorne rechts und beginnst dann mit dem Algorithmus.<br>
-            Sobald diese Ecke sich mit ihrer gelben Seite nach oben befindet, drehst du die gelbe Seite bis die nächste verdrehte Ecke an vorne rechts ist.<br>
+            Hier ist also noch einmal Konzentration gefragt.</p>
+            <div class="gallery-container">
+              <div class="gallery">
+                <img src="bilder/verdrehte_ecke_1.svg" alt="Verdrehte Ecke">
+                <div class="desc">So kann es zwischendurch aussehen</div>
+              </div>
+            </div>
+          <p>
+            Sobald die Ecke sich mit ihrer gelben Seite nach oben befindet, drehst du die gelbe Seite bis die nächste verdrehte Ecke an vorne rechts ist.<br>
             Wenn dabei die unteren zwei Ebenen durcheinander wirken, ist das vollkommen normal.
           </p>
-          <div class="gallery-container">
-            <div class="gallery">
-              <img src="bilder/verdrehte_ecke_1.svg" alt="Verdrehte Ecke">
-              <div class="desc">Eine verdrehte Ecke</div>
-            </div>
-          </div>
-          <p><b>
-            R' D' R D
-          </b></p>
           <p>
             Wenn die letzte Ecke mit gelb nach oben liegt nur noch die gelbe Seite in Position drehen und der Zauberwürfel ist gelöst.
           </p>
+          <div class="gallery-container">
+            <div class="gallery">
+              <img src="bilder/wuerfel-vielleicht.svg" alt="Verdrehte Ecke">
+              <div class="desc">Würfel Zauberwürfel Cheats Kostenlos 2020 (UPDATED)</div>
+            </div>
+          </div>
         </div>
       </div>
 
